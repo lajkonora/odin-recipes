@@ -1,15 +1,14 @@
 * {
     text-align: center;
     font-family: Helvetica, sans-serif;
-}
-
-body {
     padding: 0px 30px 0px 30px;
 }
+
 
 img {
     border-radius: 10px;
     box-shadow: 2px 2px 5px 5px rgb(128, 128, 128);
+    padding: 0px;
 }
 
 .recipe-photo {
@@ -20,7 +19,7 @@ img {
 ul>li {
     list-style: none;
     font-size: 18px;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 a {
@@ -32,6 +31,10 @@ a:hover {
     color: grey
 }
 
-.description {
+.description, .steps {
     text-align: left;
+}
+
+h2 {
+    padding-top: 30px;
 }
