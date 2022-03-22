@@ -8,6 +8,11 @@ img {
     box-shadow: 2px 2px 5px 5px rgb(128, 128, 128);
 }
 
+.recipe-photo {
+    width: 30%;
+    height: auto;
+}
+
 ul>li {
     list-style: none;
     font-size: 18px;
